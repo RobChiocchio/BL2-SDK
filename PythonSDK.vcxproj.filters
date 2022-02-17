@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Pydefs">
+      <UniqueIdentifier>{0241dca9-df47-4dfc-a299-6736b999e9c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\detours">
+      <UniqueIdentifier>{4cb6112d-4243-443f-ac29-227e7f2aee8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pybind11">
+      <UniqueIdentifier>{4743287b-5d52-4c1a-9a74-1fe28a8f731e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pybind11\detail">
+      <UniqueIdentifier>{9050e9b0-3811-4e57-849b-003612c464a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\detours">
+      <UniqueIdentifier>{98795b3c-cdd8-4e5a-b1f7-e589dae14fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UnrealEngine">
+      <UniqueIdentifier>{7bf7198c-b867-4f19-8dd0-9d0c5b3dd967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UnrealEngine">
+      <UniqueIdentifier>{ca10c96a-ad51-49b0-9c52-82799b632232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UnrealEngine\Core">
+      <UniqueIdentifier>{c426e8a1-da76-4498-a118-babd525c9e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UnrealEngine\Engine">
+      <UniqueIdentifier>{14d8a551-59e4-49f9-9701-b7a3b9dad928}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\include\AntiDebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\CPythonInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\CSigScan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\CSimpleDetour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Exports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\gamedefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\MemoryDebug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\MemorySignature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pydef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Signatures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\detail\class.h">
+      <Filter>Header Files\pybind11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\detail\common.h">
+      <Filter>Header Files\pybind11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\detail\descr.h">
+      <Filter>Header Files\pybind11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\detail\init.h">
+      <Filter>Header Files\pybind11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\detail\internals.h">
+      <Filter>Header Files\pybind11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\detail\typeid.h">
+      <Filter>Header Files\pybind11\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\attr.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\cast.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\chrono.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\common.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\complex.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\eigen.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\embed.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\eval.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\functional.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\iostream.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\pybind11.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\numpy.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\operators.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\options.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\pytypes.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\stl.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\stl_bind.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\pybind11\buffer_info.h">
+      <Filter>Header Files\pybind11</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\TypeMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\detours\detours.h">
+      <Filter>Header Files\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\detours\detver.h">
+      <Filter>Header Files\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\CHookManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\UnrealSDK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\UnrealEngine\Engine\Engine_f_structs.h">
+      <Filter>Header Files\UnrealEngine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\UnrealEngine\Engine\Engine_structs.h">
+      <Filter>Header Files\UnrealEngine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\UnrealEngine\Engine\Engine_classes.h">
+      <Filter>Header Files\UnrealEngine\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\UnrealEngine\Core\Core_f_structs.h">
+      <Filter>Header Files\UnrealEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\UnrealEngine\Core\Core_structs.h">
+      <Filter>Header Files\UnrealEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\UnrealEngine\Core\Core_classes.h">
+      <Filter>Header Files\UnrealEngine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include\Games.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\pydefs\_TArray.cpp">
+      <Filter>Source Files\Pydefs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pydefs\Core_classes.cpp">
+      <Filter>Source Files\Pydefs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pydefs\Core_structs.cpp">
+      <Filter>Source Files\Pydefs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pydefs\gamedefines.cpp">
+      <Filter>Source Files\Pydefs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AntiDebug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CPythonInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CSigScan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CSimpleDetour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\include\detours\detours.cpp">
+      <Filter>Source Files\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\include\detours\disasm.cpp">
+      <Filter>Source Files\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\include\detours\modules.cpp">
+      <Filter>Source Files\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CHookManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CoreExtensions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnrealSDK.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnrealEngine\Core_functions.cpp">
+      <Filter>Source Files\UnrealEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UnrealEngine\Engine_functions.cpp">
+      <Filter>Source Files\UnrealEngine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

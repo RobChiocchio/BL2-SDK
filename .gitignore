@@ -2,3 +2,6 @@
 [Rr]elease
 .vs
 *.dll
+*.pyc
+*.json
+*.vcxproj.user
